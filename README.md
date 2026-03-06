@@ -7,34 +7,32 @@ Advanced Discord Automation &amp; Analysis Tool for Educational Research. Built 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Status](https://img.shields.io/badge/Status-Stable-green.svg)]()
 
-OMT-Sentinel is an automated Discord self-bot designed to identify and catch Pokémon for the Pokétwo minigame. It is built with a focus on **Stealth** (to avoid bans) and **Speed** (to beat competitors).
+---
+
+## 📋 [SECTION 1: FEATURES]
+* **⚡ Instant Catch:** High-speed regex for identifying Pokémon spawns.
+* **🎭 Stealth Engine:** Randomized delays (MIN_DELAY to MAX_DELAY) to mimic human behavior.
+* **🛡️ Captcha Shield:** Auto-pauses and alerts your main account when a captcha appears.
+* **📡 Remote Control:** Control the bot using `!done` or `!stop` from your main ID.
+* **🔑 License System:** Secure cloud-based key validation.
+* **📢 Built-in Spammer:** Auto-chatting to trigger more Pokémon spawns.
 
 ---
 
-## ✨ Key Features
-
-* **⚡ Instant Recognition:** High-speed regex engine to identify spawns before anyone else.
-* **🎭 Human-Mimicry:** Simulates real typing indicators and uses randomized delays to bypass anti-cheat.
-* **🚨 Captcha Auto-Stop:** Detects Pokétwo verification checks instantly and pauses all actions to save your account.
-* **📡 Remote Command System:** Control your bot from a different account using `!done` and `!stop`.
-* **📊 Live Dashboard:** A clean, professional CLI dashboard to monitor your stats and license status.
-* **🔄 Auto-Fixer:** Automatically handles complex Pokémon names (e.g., Flabébé, Farfetch’d).
-
----
-
-## 🚀 Getting Started
-
-### 📱 Installation on Mobile (Termux)
-1. Install [Termux](https://f-droid.org/en/packages/com.termux/) from F-Droid.
-2. Open Termux and paste the following:
+## 📱 [SECTION 2: MOBILE SETUP - TERMUX]
 ```bash
+# 1. Update and Upgrade Termux
 pkg update && pkg upgrade -y
+
+# 2. Install Python and Git
 pkg install python git -y
+
+# 3. Clone the Repository
 git clone [https://github.com/Omtgod/OMT-Sentinel-Ultimate](https://github.com/Omtgod/OMT-Sentinel-Ultimate)
 cd OMT-Sentinel-Ultimate
-pip install -r requirements.txt
-python main.py
----
 
-## ⚠️ Legal Disclaimer
-This tool is for **educational purposes only**. The developer (@omt_god) is not responsible for any account bans or losses. Usage of this tool implies acceptance of all risks involved.
+# 4. Install Dependencies
+pip install discord.py-self requests
+
+# 5. Run the Bot
+python main.py
