@@ -35,7 +35,7 @@ cd OMT-Sentinel-Ultimate
 pip install discord.py-self requests
 
 # 5. Run the Bot
-python main.py
+python OMT-Sentinel.py
 ```
 💻 [SECTION 3: PC SETUP - TERMINAL/CMD]
 ```
@@ -47,4 +47,4 @@ cd OMT-Sentinel-Ultimate
 pip install discord.py-self requests
 
 # 3. Start the Bot
-python main.py
+python OMT-Sentinel.py
