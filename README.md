@@ -36,3 +36,15 @@ pip install discord.py-self requests
 
 # 5. Run the Bot
 python main.py
+```
+💻 [SECTION 3: PC SETUP - TERMINAL/CMD]
+```
+# 1. Clone the Repository
+git clone [https://github.com/Omtgod/OMT-Sentinel-Ultimate](https://github.com/Omtgod/OMT-Sentinel-Ultimate)
+cd OMT-Sentinel-Ultimate
+
+# 2. Install Requirements
+pip install discord.py-self requests
+
+# 3. Start the Bot
+python main.py
