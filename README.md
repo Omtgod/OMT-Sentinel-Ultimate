@@ -1,115 +1,39 @@
 # OMT-Sentinel-Ultimate
 Advanced Discord Automation &amp; Analysis Tool for Educational Research. Built with Python and Discord.py. Optimized for high-speed performance and security.
-🛡️ OMT-Sentinel Ultimate v1.0
-Educational Purposes Only | Use at Your Own Risk
+# 🛡️ OMT-Sentinel Ultimate v1.0
+> **The most advanced, stealth-focused Discord automation tool for Pokétwo.**
 
-Advanced Discord automation and analysis tool designed for research and educational experiments. This version features secure license verification and a professional command dashboard.
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Status](https://img.shields.io/badge/Status-Stable-green.svg)]()
 
-🚀 Installation & Setup
-📱 Option A: Mobile Users (Android - Termux)
-Step 1: Install Termux
+OMT-Sentinel is an automated Discord self-bot designed to identify and catch Pokémon for the Pokétwo minigame. It is built with a focus on **Stealth** (to avoid bans) and **Speed** (to beat competitors).
 
-Download Termux from F-Droid (Play Store version is outdated).
-
-Open Termux and paste this command to setup everything at once:
-pkg update && pkg upgrade -y && pkg install python git nano -y
-
-Step 2: Clone & Install
-
-Run these commands:
-git clone https://github.com/Omtgod/OMT-Sentinel-Ultimate
-cd OMT-Sentinel-Ultimate
-pip install -r requirements.txt
-
-Step 3: Configuration (Very Important)
-
-Run the bot once to generate the config file:
-python OMT_Sentinel.py
-
-Now, open the config editor:
-nano config.json
-
-Use arrow keys to find these lines and replace the text inside quotes:
-
-"LICENSE_KEY": "YOUR_KEY_HERE"
-
-"DISCORD_TOKEN": "YOUR_ALT_TOKEN_HERE"
-
-"MAIN_ACCOUNT_ID": "YOUR_ID_HERE"
-
-To Save: Press Ctrl + O, then Enter.
-
-To Exit: Press Ctrl + X.
-
-Start the bot again:
-python OMT_Sentinel.py
-
-💻 Option B: PC Users (Windows)
-Download OMT-Sentinel-v1.0.exe from the Releases section on the right side of this page.
-
-Run the .exe file. It will automatically create a config.json in the same folder.
-
-Open config.json with Notepad, fill in your Token and License Key, and save.
-
-Restart the application to access the Dashboard.
-
-🎮 Commands & Controls
-!done: Resume bot after a captcha or manual pause.
-
-!stop: Emergency shutdown of the bot.
-
-⚠️ Legal Disclaimer
-This software is strictly for educational purposes only. The developer (@omt_god) is not responsible for any account bans, data loss, or legal issues. Usage of this tool implies acceptance of all risks involved. This tool is hardware/ID locked for security purposes.
-
-🛡️ Developer Note
-Encrypted Code: The source code is obfuscated (PyArmor) to protect secret links and licensing logic.
-
-No Leaks: Your personal license OMT-OWNER-GOD-MODE is strictly locked to your unique ID.
-Step 3: Configuration (Very Important)
-
-Run the bot once to generate the config file:
-python OMT_Sentinel.py
-
-Now, open the config editor:
-nano config.json
-
-Use arrow keys to find these lines and replace the text inside quotes:
-
-"LICENSE_KEY": "YOUR_KEY_HERE"
-
-"DISCORD_TOKEN": "YOUR_ALT_TOKEN_HERE"
-
-"MAIN_ACCOUNT_ID": "YOUR_ID_HERE"
-
-To Save: Press Ctrl + O, then Enter.
-
-To Exit: Press Ctrl + X.
-
-Start the bot again:
-python OMT_Sentinel.py
-
-💻 Option B: PC Users (Windows)
-Download OMT-Sentinel-v1.0.exe from the Releases section on the right side of this page.
-
-Run the .exe file. It will automatically create a config.json in the same folder.
-
-Open config.json with Notepad, fill in your Token and License Key, and save.
-
-Restart the application to access the Dashboard.
-
-🎮 Commands & Controls
-!done: Resume bot after a captcha or manual pause.
-
-!stop: Emergency shutdown of the bot.
-
-⚠️ Legal Disclaimer
-This software is strictly for educational purposes only. The developer (@omt_god) is not responsible for any account bans, data loss, or legal issues. Usage of this tool implies acceptance of all risks involved. This tool is hardware/ID locked for security purposes.
 ---
 
-## 🎮 Commands & Controls
-- `!done`: Resume bot after captcha or pause.
-- `!stop`: Emergency shutdown.
+## ✨ Key Features
 
+* **⚡ Instant Recognition:** High-speed regex engine to identify spawns before anyone else.
+* **🎭 Human-Mimicry:** Simulates real typing indicators and uses randomized delays to bypass anti-cheat.
+* **🚨 Captcha Auto-Stop:** Detects Pokétwo verification checks instantly and pauses all actions to save your account.
+* **📡 Remote Command System:** Control your bot from a different account using `!done` and `!stop`.
+* **📊 Live Dashboard:** A clean, professional CLI dashboard to monitor your stats and license status.
+* **🔄 Auto-Fixer:** Automatically handles complex Pokémon names (e.g., Flabébé, Farfetch’d).
+
+---
+
+## 🚀 Getting Started
+
+### 📱 Installation on Mobile (Termux)
+1. Install [Termux](https://f-droid.org/en/packages/com.termux/) from F-Droid.
+2. Open Termux and paste the following:
+```bash
+pkg update && pkg upgrade -y
+pkg install python git -y
+git clone [https://github.com/Omtgod/OMT-Sentinel-Ultimate](https://github.com/Omtgod/OMT-Sentinel-Ultimate)
+cd OMT-Sentinel-Ultimate
+pip install -r requirements.txt
+python main.py
 ---
 
 ## ⚠️ Legal Disclaimer
