@@ -17,10 +17,54 @@ pkg update && pkg upgrade -y && pkg install python git nano -y
 Step 2: Clone & Install
 
 Run these commands:
-git clone https://github.com/YOUR_GITHUB_USERNAME/OMT-Sentinel-Ultimate
+git clone https://github.com/Omtgod/OMT-Sentinel-Ultimate
 cd OMT-Sentinel-Ultimate
 pip install -r requirements.txt
 
+Step 3: Configuration (Very Important)
+
+Run the bot once to generate the config file:
+python OMT_Sentinel.py
+
+Now, open the config editor:
+nano config.json
+
+Use arrow keys to find these lines and replace the text inside quotes:
+
+"LICENSE_KEY": "YOUR_KEY_HERE"
+
+"DISCORD_TOKEN": "YOUR_ALT_TOKEN_HERE"
+
+"MAIN_ACCOUNT_ID": "YOUR_ID_HERE"
+
+To Save: Press Ctrl + O, then Enter.
+
+To Exit: Press Ctrl + X.
+
+Start the bot again:
+python OMT_Sentinel.py
+
+💻 Option B: PC Users (Windows)
+Download OMT-Sentinel-v1.0.exe from the Releases section on the right side of this page.
+
+Run the .exe file. It will automatically create a config.json in the same folder.
+
+Open config.json with Notepad, fill in your Token and License Key, and save.
+
+Restart the application to access the Dashboard.
+
+🎮 Commands & Controls
+!done: Resume bot after a captcha or manual pause.
+
+!stop: Emergency shutdown of the bot.
+
+⚠️ Legal Disclaimer
+This software is strictly for educational purposes only. The developer (@omt_god) is not responsible for any account bans, data loss, or legal issues. Usage of this tool implies acceptance of all risks involved. This tool is hardware/ID locked for security purposes.
+
+🛡️ Developer Note
+Encrypted Code: The source code is obfuscated (PyArmor) to protect secret links and licensing logic.
+
+No Leaks: Your personal license OMT-OWNER-GOD-MODE is strictly locked to your unique ID.
 Step 3: Configuration (Very Important)
 
 Run the bot once to generate the config file:
